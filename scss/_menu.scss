@@ -35,7 +35,7 @@
       //Line 3 Rotate
 
       &:nth-child(3) {
-        background: whitesmoke;
+        background: white;
         transform: rotate(-45deg) translate(7px, -6px);
       }
     }
@@ -82,7 +82,7 @@
   //Branding Side
   &-branding {
     background: $primary-color;
-    transform: translate3d(0, 100, 0);
+    transform: translate3d(0, 100%, 0);
     @include easeOut;
 
     &.show {
@@ -91,8 +91,8 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px $secondary-color;
@@ -112,6 +112,7 @@
       color: $secondary-color;
     }
   }
+
   .nav-link {
     display: inline-block;
     position: relative;
