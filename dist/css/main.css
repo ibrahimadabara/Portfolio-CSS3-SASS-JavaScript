@@ -253,15 +253,15 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
-  ul.menu-nave,
+  ul.menu-nav,
   div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
-    ul.menu-nave.show,
+    ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
-  .menu-nave {
+  .menu-nav {
     height: 75vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
