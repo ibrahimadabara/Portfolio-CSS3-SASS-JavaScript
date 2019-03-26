@@ -3,7 +3,7 @@
   position: absolute;
   z-index: 3;
   right: 35px;
-  top: 35px;
+  top: 25px;
   cursor: pointer;
   @include easeOut;
 
@@ -23,7 +23,7 @@
     .btn-line {
       // Line 1 - Rotate
       &:nth-child(1) {
-        background: yellow;
+        background: rgb(22, 22, 20);
         transform: rotate(45deg) translate(5px, 5px);
       }
 
@@ -36,7 +36,7 @@
       //Line 3 Rotate
 
       &:nth-child(3) {
-        background: white;
+        background: rgb(12, 54, 109);
         transform: rotate(-45deg) translate(7px, -6px);
       }
     }
@@ -90,14 +90,6 @@
       // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
-
-    .portrait {
-      width: 200px;
-      height: 200px;
-      background: url("../img/portrait.jpg");
-      border-radius: 50%;
-      border: solid 3px $secondary-color;
-    }
   }
 
   .nav-item {
@@ -137,4 +129,12 @@
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
+}
+
+.portrait {
+  width: 200px;
+  height: 200px;
+  background: url("../img/portrait.jpg");
+  border-radius: 50%;
+  border: solid 3px $secondary-color;
 }
