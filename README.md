@@ -10,4 +10,4 @@ Technologies used:
     
 Timeline: 48 Hours
 
-Referenc: bradtraversy
+Reference: bradtraversy
